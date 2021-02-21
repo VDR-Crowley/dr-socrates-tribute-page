@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif, monospace;
+}
+
+#main {
+  width: 95%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border: 10px dotted #ccc;
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+#title {
+  color: #f5f5f5;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px white;
+  margin: 20px;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#image {
+  width: 70%;
+  box-shadow: 0px 0px 10px 10px white;
+}
+
+#img-caption {
+  color: white;
+  margin-top: 20px;
+  text-shadow: 5px 5px 10px #fff;
+}
+
+#tritute-info{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#tritute-info h4,
+#tritute-info p{
+  text-align: center;
+  padding: 30px;
+  text-shadow: 5px 5px 10px white;
+}
+
+#tritute-info h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#tritute-info p {
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+
+#tritute-info p a {
+  display: block;
+  color: #CCC;
+  text-shadow: 0px 0px 0px white;
+}
+
+#tritute-info p a:hover {
+  color: white;
+  text-shadow: 0px 0px 10px white;
+}
